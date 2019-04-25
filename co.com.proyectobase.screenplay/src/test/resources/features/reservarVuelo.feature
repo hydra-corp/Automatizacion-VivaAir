@@ -1,26 +1,20 @@
+#language: es
 #Author: jeaceved@bancolombia.com.co
 
-@tag
-Feature: Title of your feature
-  I want to use this template for my feature file
 
-  @tag1
-  Scenario: Title of your scenario
-    Given I want to write a step with precondition
-    And some other precondition
-    When I complete action
-    And some other action
-    And yet another action
-    Then I validate the outcomes
-    And check more outcomes
+@Resgresion
+Característica: Comprar tiquetes aereos
+Como usuario
+Quiero comprar tiquetes para ir de vacaciones
+A traves de la pagina web de Vivaair.com/co
 
-  @tag2
-  Scenario Outline: Title of your scenario outline
-    Given I want to write a step with <name>
-    When I check for the <value> in step
-    Then I verify the <status> in step
-
-    Examples: 
-      | name  | value | status  |
-      | name1 |     5 | success |
-      | name2 |     7 | Fail    |
+	
+	@Test
+	Esquema del escenario: Comprar tiquetes  en vivaair  ida y regreso
+	Dado que Jhon desea viajar 
+	Cuando reserva un vuelo en vivaAir entre <origen> y <destino> para el dia <fecha>
+	Entonces El deberia ver la reserva exitosa del vuelo
+		Ejemplos:
+			|origen		|destino|fecha				|
+			|medellin	|pereira|12-mayo-2019	|
+			|medellin	|cali		|12-mayo-2019	|
