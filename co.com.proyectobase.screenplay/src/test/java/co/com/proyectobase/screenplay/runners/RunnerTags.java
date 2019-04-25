@@ -8,8 +8,8 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-		features="src/test/resources/features/demo.feature",
-		tags= "@tag2",
+		features="src/test/resources/features/reservarVuelo.feature",
+		tags= "@reservaIda",
 		glue="co.com.proyectobase.screenplay.stepdefinitions",
 		snippets=SnippetType.CAMELCASE		)
 public class RunnerTags {

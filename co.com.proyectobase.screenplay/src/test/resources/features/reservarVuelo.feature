@@ -9,8 +9,8 @@ Quiero comprar tiquetes para ir de vacaciones
 A traves de la pagina web de Vivaair.com/co
 
 	
-	@Test
-	Esquema del escenario: Comprar tiquetes  en vivaair  ida y regreso
+	@reservaIda
+	Esquema del escenario: Comprar tiquetes  en vivaair de ida
 	Dado que Jhon desea viajar 
 	Cuando reserva un vuelo en vivaAir entre <origen> y <destino> para el dia <fecha>
 	Entonces El deberia ver la reserva exitosa del vuelo
