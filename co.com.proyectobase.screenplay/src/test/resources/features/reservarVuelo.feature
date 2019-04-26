@@ -3,7 +3,7 @@
 
 
 @Resgresion
-Caracteri≠stica: Comprar tiquetes aereos
+Caracter√≠stica: Comprar tiquetes aereos
 Como usuario
 Quiero comprar tiquetes para ir de vacaciones
 A traves de la pagina web de Vivaair.com/co
